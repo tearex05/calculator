@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom'
 function Nav() {
 
 	return (
-		<Link to='/'>
+		<Link to='/calculator'>
 				<HiHome className='home' />
 		</Link>
 	)

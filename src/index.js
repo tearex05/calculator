@@ -12,7 +12,7 @@ root.render(
     <Router>
     <Nav />
       <Routes>
-        <Route element={<App />} exact path='/' />
+        <Route element={<App />} exact path='/calculator' />
         <Route element={<Bmi />} exact path='/bmi' />
         <Route element={<Age />} exact path='/age' />
       </Routes>
