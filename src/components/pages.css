@@ -1,0 +1,73 @@
+.bmi-body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	min-height: 100vh;
+	text-align: center;
+}
+
+.bmi-title{
+	margin-bottom: 20px;
+}
+
+.input-body{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.input{
+	outline: none;
+	border: none;
+	border-bottom: 3px solid #111111;
+	transition: all 0.3s ease-in;
+	padding-bottom: 1px;
+	font-size: 1.3rem;
+}
+
+.input:focus{
+    border-bottom: 3px solid tomato;	
+}
+
+.submit{
+	margin-bottom: 20px;
+	background-color: transparent;
+	padding: 5px 10px;
+	font-size: 1.2rem;
+	cursor: pointer;
+	border: 2px solid #222;
+	box-shadow: 6px 6px #222;
+	transition: all 0.2s ease-in-out;
+}
+
+.submit:hover{
+   box-shadow: 3px 3px #222;	
+}
+
+.submit:active{
+   box-shadow: 0px 0px #222;	
+}
+
+.result{
+	font-size: 2rem;
+}
+
+.age-body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	min-height: 100vh;
+	text-align: center;
+}
+
+.age-title{
+	margin-bottom: 20px;
+}
+
+.red{
+	color: tomato;
+}

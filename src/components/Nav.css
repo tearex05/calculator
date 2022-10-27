@@ -1,0 +1,14 @@
+.home{
+	width: 2.3em;
+	height: 2.3em;
+	color: black;
+	cursor: pointer;
+	position: absolute;
+	z-index: 100;
+	margin: 10px;
+	transition: all 0.3s cubic-bezier(0.96, 0, 0, 1);
+}
+
+.home:hover{
+	transform: rotateZ(90deg);
+}
